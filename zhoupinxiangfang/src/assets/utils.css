@@ -1,0 +1,319 @@
+/* 公共 */
+.support-icon{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+/* 白底图片 */
+.support-icon.icon-1{
+	width: 12px;
+	height: 12px;
+}
+
+.support-icon.icon-2{
+	width: 16px;
+	height: 16px;
+}
+/* 白字图片 */
+.support-icon.icon-3{
+	width: 12px;
+	height: 12px;
+}
+.support-icon.icon-4{
+	width: 16px;
+	height: 16px;
+}
+
+
+/* 48的星星 */
+.star48 .star-item{
+	width: 20px;
+	height: 20px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/* 36的星星 */
+.star36 .star-item{
+	width: 15px;
+	height: 15px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+/* 24的星星 */
+.star24 .star-item{
+	width: 10px;
+	height: 10px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.bulletin-wrapper .bulletin{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.seller-content .title .brand{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* 1像素边框的设置 */
+.border-bottom-1px{
+	position: relative;
+}
+.border-top-1px{
+	position: relative;
+}
+@media (min-resolution:2dppx){
+	/* 1像素边框的设置 */
+	.border-bottom-1px::after{
+		content:'';
+		display:block;
+		width: 100%;
+		border-top: 1px solid rgba(7,17,27,0.4);
+		transform: scaleY(0.5);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	.border-top-1px::before{
+		content:'';
+		display:block;
+		width: 100%;
+		border-top: 1px solid rgba(7,17,27,0.4);
+		transform: scaleY(0.5);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.seller-content .title .brand{
+		background-image: url(./images/brand@2x.png);
+	}
+	.bulletin-wrapper .bulletin{
+		background-image:url(./images/bulletin@2x.png);
+	}
+    .support-icon.icon-1.decrease{
+        background-image: url(./images/decrease_1@2x.png);
+    }
+    .support-icon.icon-1.discount{
+        background-image: url(./images/discount_1@2x.png);
+    }
+    .support-icon.icon-1.guarantee{
+        background-image: url(./images/guarantee_1@2x.png);
+    }
+    .support-icon.icon-1.invoice{
+        background-image: url(./images/invoice_1@2x.png);
+    }
+    .support-icon.icon-1.special{
+        background-image: url(./images/special_1@2x.png);
+    }
+    .support-icon.icon-2.decrease{
+        background-image: url(./images/decrease_2@2x.png);
+    }
+    .support-icon.icon-2.discount{
+        background-image: url(./images/discount_2@2x.png);
+    }
+    .support-icon.icon-2.guarantee{
+        background-image: url(./images/guarantee_2@2x.png);
+    }
+    .support-icon.icon-2.invoice{
+        background-image: url(./images/invoice_2@2x.png);
+    }
+    .support-icon.icon-2.special{
+        background-image: url(./images/special_2@2x.png);
+    }
+    .support-icon.icon-3.decrease{
+        background-image: url(./images/decrease_3@2x.png);
+    }
+    .support-icon.icon-3.discount{
+        background-image: url(./images/discount_3@2x.png);
+    }
+    .support-icon.icon-3.guarantee{
+        background-image: url(./images/guarantee_3@2x.png);
+    }
+    .support-icon.icon-3.invoice{
+        background-image: url(./images/invoice_3@2x.png);
+    }
+    .support-icon.icon-3.special{
+        background-image: url(./images/special_3@2x.png);
+    }
+    .support-icon.icon-4.decrease{
+        background-image: url(./images/decrease_4@2x.png);
+    }
+    .support-icon.icon-4.discount{
+        background-image: url(./images/discount_4@2x.png);
+    }
+    .support-icon.icon-4.guarantee{
+        background-image: url(./images/guarantee_4@2x.png);
+    }
+    .support-icon.icon-4.invoice{
+        background-image: url(./images/invoice_4@2x.png);
+    }
+    .support-icon.icon-4.special{
+        background-image: url(./images/special_4@2x.png);
+    }
+	
+	/* 48星星 */
+	.star48 .star-item.on{
+		background-image: url(./images/star48_on@2x.png);
+	}
+	.star48 .star-item.half{
+		background-image: url(./images/star48_half@2x.png);
+	}
+	.star48 .star-item.off{
+		background-image: url(./images/star48_off@2x.png);
+	}
+	/* 36星星 */
+	.star36 .star-item.on{
+		background-image: url(./images/star36_on@2x.png);
+	}
+	.star36 .star-item.half{
+		background-image: url(./images/star36_half@2x.png);
+	}
+	.star36 .star-item.off{
+		background-image: url(./images/star36_off@2x.png);
+	}
+	/* 24星星 */
+	.star24 .star-item.on{
+		background-image: url(./images/star24_on@2x.png);
+	}
+	.star24 .star-item.half{
+		background-image: url(./images/star24_half@2x.png);
+	}
+	.star24 .star-item.off{
+		background-image: url(./images/star24_off@2x.png);
+	}
+	
+	/* 导航下面的线 */
+	.tab-btns .active-line{
+		transform: scaleY(0.5);
+	}
+	
+	
+	
+}
+@media (min-resolution:3dppx){
+	/* 1像素边框的设置 */
+	.border-bottom-1px::after{
+		content:'';
+		display:block;
+		width: 100%;
+		border-top: 1px solid rgba(7,17,27,0.2);
+		transform: scaleY(0.33);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	.border-top-1px::after{
+		content:'';
+		display:block;
+		width: 100%;
+		border-top: 1px solid rgba(7,17,27,0.2);
+		transform: scaleY(0.33);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.seller-content .title .brand{
+		background-image: url(./images/brand@3x.png);
+	}
+	.bulletin-wrapper .bulletin{
+		background-image:url(./images/bulletin@3x.png);
+	}
+    .support-icon.icon-1.decrease{
+        background-image: url(./images/decrease_1@3x.png);
+    }
+    .support-icon.icon-1.discount{
+        background-image: url(./images/discount_1@3x.png);
+    }
+    .support-icon.icon-1.guarantee{
+        background-image: url(./images/guarantee_1@3x.png);
+    }
+    .support-icon.icon-1.invoice{
+        background-image: url(./images/invoice_1@3x.png);
+    }
+    .support-icon.icon-1.special{
+        background-image: url(./images/special_1@3x.png);
+    }
+    .support-icon.icon-2.decrease{
+        background-image: url(./images/decrease_2@3x.png);
+    }
+    .support-icon.icon-2.discount{
+        background-image: url(./images/discount_2@3x.png);
+    }
+    .support-icon.icon-2.guarantee{
+        background-image: url(./images/guarantee_2@3x.png);
+    }
+    .support-icon.icon-2.invoice{
+        background-image: url(./images/invoice_2@3x.png);
+    }
+    .support-icon.icon-2.special{
+        background-image: url(./images/special_2@3x.png);
+    }
+    .support-icon.icon-3.decrease{
+        background-image: url(./images/decrease_3@3x.png);
+    }
+    .support-icon.icon-3.discount{
+        background-image: url(./images/discount_3@3x.png);
+    }
+    .support-icon.icon-3.guarantee{
+        background-image: url(./images/guarantee_3@3x.png);
+    }
+    .support-icon.icon-3.invoice{
+        background-image: url(./images/invoice_3@3x.png);
+    }
+    .support-icon.icon-3.special{
+        background-image: url(./images/special_3@3x.png);
+    }
+    .support-icon.icon-4.decrease{
+        background-image: url(./images/decrease_4@3x.png);
+    }
+    .support-icon.icon-4.discount{
+        background-image: url(./images/discount_4@3x.png);
+    }
+    .support-icon.icon-4.guarantee{
+        background-image: url(./images/guarantee_4@3x.png);
+    }
+    .support-icon.icon-4.invoice{
+        background-image: url(./images/invoice_4@3x.png);
+    }
+    .support-icon.icon-4.special{
+        background-image: url(./images/special_4@3x.png);
+    }
+	
+	/* 48星星 */
+	.star48 .star-item.on{
+		background-image: url(./images/star48_on@3x.png);
+	}
+	.star48 .star-item.half{
+		background-image: url(./images/star48_half@3x.png);
+	}
+	.star48 .star-item.off{
+		background-image: url(./images/star48_off@3x.png);
+	}
+	/* 36星星 */
+	.star36 .star-item.on{
+		background-image: url(./images/star36_on@3x.png);
+	}
+	.star36 .star-item.half{
+		background-image: url(./images/star36_half@3x.png);
+	}
+	.star36 .star-item.off{
+		background-image: url(./images/star36_off@3x.png);
+	}
+	/* 24星星 */
+	.star24 .star-item.on{
+		background-image: url(./images/star24_on@3x.png);
+	}
+	.star24 .star-item.half{
+		background-image: url(./images/star24_half@3x.png);
+	}
+	.star24 .star-item.off{
+		background-image: url(./images/star24_off@3x.png);
+	}
+	
+	/* 导航下面的线 */
+	.tab-btns .active-line{
+		transform: scaleY(0.33);
+	}
+	
+}
